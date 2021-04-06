@@ -1,0 +1,82 @@
+.body {
+  background-image: linear-gradient(
+    to right top,
+    #cedef6,
+    #b9d0f6,
+    #a4c2f6,
+    #90b4f5,
+    #7ca6f4
+  );
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 600px;
+}
+
+#grilla {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -155px;
+  top: 50px;
+}
+
+.cuadrado {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  cursor: pointer;
+}
+.cuadrado.elem1 {
+  border-top: 0;
+  border-left: 0;
+}
+.cuadrado.elem2 {
+  border-top: 0;
+}
+.cuadrado.elem3 {
+  border-top: 0;
+  border-right: 0;
+}
+.cuadrado.elem4 {
+  border-left: 0;
+}
+.cuadrado.elem6 {
+  border-right: 0;
+}
+.cuadrado.elem7 {
+  border-bottom: 0;
+  border-left: 0;
+}
+.cuadrado.elem8 {
+  border-bottom: 0;
+}
+.cuadrado.elem9 {
+  border-bottom: 0;
+  border-right: 0;
+}
+.boton {
+  border: 2px solid aquamarine;
+  background-color: aqua;
+  position: fixed;
+  bottom: 0;
+  /* width: 100%; */
+  height: 60px;
+  width: 100%;
+  color: darkblue;
+  font-size: large;
+  border-radius: 15px;
+  margin: 0;
+}
+.boton:hover {
+  background-color: darkcyan;
+}
+.results * {
+  font-size: 20px;
+  margin-bottom: 45px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
